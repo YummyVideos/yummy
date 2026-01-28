@@ -155,7 +155,6 @@
         }
 
         .nav-links .btn {
-            color: var(--white);
             padding: 0.6rem 1.5rem;
         }
 
@@ -182,13 +181,13 @@
 
         .btn-outline {
             border: 1.5px solid var(--primary);
-            color: var(--primary);
+            color: var(--primary);  /* This ensures text is black/visible */
             background: transparent;
         }
 
         .btn-outline:hover {
             background: var(--primary);
-            color: var(--white);
+            color: var(--white);  /* White text only on hover when background is black */
         }
 
         /* Hero Section */
