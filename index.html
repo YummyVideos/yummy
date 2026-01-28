@@ -8,11 +8,11 @@
         {
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
-          "image": "https://ensili.co/app/yummy/images/logo.png",
+          "image": "https://getyummy.app/images/logo.png",
           "name": "Yummy",
           "operatingSystem": "macOS",
-          "description" : "Effortlessly download videos and music from YouTube, Vimeo, Twitch, Facebook, and hundreds of other websites. Convert and export them to your preferred format with just a few clicks. Simple, fast, and no-fuss.",
-          "downloadURL" : "https://ensili.co/download/yummy/yummy-5.6.1.zip",
+          "description" : "Effortlessly download videos and music from popular video platforms and hundreds of supported websites. Convert and export them to your preferred format with just a few clicks. Perfect for archiving educational content, personal projects, and creative commons materials. Simple, fast, and no-fuss.",
+          "downloadURL" : "https://getyummy.app/download/yummy-5.6.1.zip",
           "applicationCategory": "MultimediaApplication",
           "offers": {
             "@type": "Offer",
@@ -25,24 +25,24 @@
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Effortlessly download videos and music from YouTube, Vimeo, Twitch, Facebook, and hundreds of other websites. Convert and export them to your preferred format with just a few clicks. Simple, fast, and no-fuss.">
-    <meta name="keywords" content="video downloader, download youtube videos, youtube to mp3, youtube to mp4, mac video downloader, download music, video converter, mac app, simple video downloader">
+    <meta name="description" content="Effortlessly download videos and music from popular video platforms and hundreds of supported websites. Convert and export them to your preferred format with just a few clicks. Perfect for archiving educational content, personal projects, and creative commons materials. Simple, fast, and no-fuss.">
+    <meta name="keywords" content="video downloader, video archiving tool, media converter, mac video downloader, download educational videos, video backup tool, content archiving, mac app, media management">
 
-    <link rel="canonical" href="https://ensili.co/app/yummy">
+    <link rel="canonical" href="https://getyummy.app">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ensili.co/app/yummy">
+    <meta property="og:url" content="https://getyummy.app">
     <meta property="og:title" content="Yummy | The Ultimate Video Downloader for Mac">
-    <meta property="og:description" content="Effortlessly download videos and music from YouTube, Vimeo, Twitch, Facebook, and hundreds of other websites. Convert and export them to your preferred format with just a few clicks. Simple, fast, and no-fuss.">
-    <meta property="og:image" content="https://ensili.co/app/yummy/images/thumbshot.png">
+    <meta property="og:description" content="Effortlessly download videos and music from popular video platforms and hundreds of supported websites. Convert and export them to your preferred format with just a few clicks. Perfect for archiving educational content, personal projects, and creative commons materials. Simple, fast, and no-fuss.">
+    <meta property="og:image" content="https://getyummy.app/images/thumbshot.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://ensili.co/app/yummy">
+    <meta property="twitter:url" content="https://getyummy.app">
     <meta property="twitter:title" content="Yummy | The Ultimate Video Downloader for Mac">
-    <meta property="twitter:description" content="Effortlessly download videos and music from YouTube, Vimeo, Twitch, Facebook, and hundreds of other websites. Convert and export them to your preferred format with just a few clicks. Simple, fast, and no-fuss.">
-    <meta property="twitter:image" content="https://ensili.co/app/yummy/images/thumbshot.png">
+    <meta property="twitter:description" content="Effortlessly download videos and music from popular video platforms and hundreds of supported websites. Convert and export them to your preferred format with just a few clicks. Perfect for archiving educational content, personal projects, and creative commons materials. Simple, fast, and no-fuss.">
+    <meta property="twitter:image" content="https://getyummy.app/images/thumbshot.png">
 
     <!-- FavIcon -->
     <link rel="apple-touch-icon" sizes="57x57" href="favico/apple-icon-57x57.png">
@@ -67,6 +67,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS for Carousel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
     <style>
         :root {
@@ -104,7 +107,7 @@
             top: 0;
             left: 0;
             right: 0;
-            background: rgba(250, 250, 250, 0.8);
+            background: rgba(250, 250, 250, 0.95);
             backdrop-filter: blur(20px);
             z-index: 1000;
             border-bottom: 1px solid var(--border);
@@ -136,7 +139,7 @@
 
         .nav-links {
             display: flex;
-            gap: 2.5rem;
+            gap: 2rem;
             align-items: center;
         }
 
@@ -151,13 +154,18 @@
             color: var(--primary);
         }
 
+        .nav-links .btn {
+            color: var(--white);
+            padding: 0.6rem 1.5rem;
+        }
+
         .btn {
             padding: 0.75rem 1.75rem;
             border-radius: 100px;
             text-decoration: none;
             font-size: 0.95rem;
             font-weight: 500;
-            transition: all 0.3s ease;
+            transition: all 0.25s ease;
             display: inline-block;
             border: none;
             cursor: pointer;
@@ -170,7 +178,8 @@
 
         .btn-primary:hover {
             background: var(--accent);
-            transform: translateY(-2px);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 102, 255, 0.3);
         }
 
         .btn-outline {
@@ -182,6 +191,8 @@
         .btn-outline:hover {
             background: var(--primary);
             color: var(--white);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
         /* Hero Section */
@@ -298,23 +309,28 @@
             padding: 8rem 0;
         }
 
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+        .swiper {
+            width: 100%;
+            padding: 2rem 0 3rem;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .gallery-item {
+            max-width: 700px;
+            margin: 0 auto;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
         }
 
-        .gallery-item:hover {
-            transform: translateY(-8px);
+        .swiper-slide-active .gallery-item {
+            transform: scale(1.05);
             box-shadow: 0 20px 50px rgba(0,0,0,0.12);
         }
 
@@ -322,6 +338,32 @@
             width: 100%;
             height: auto;
             display: block;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: var(--primary);
+            background: var(--white);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .swiper-pagination-bullet {
+            background: var(--secondary);
+            opacity: 0.5;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: var(--primary);
+            opacity: 1;
         }
 
         /* How To Section */
@@ -408,6 +450,7 @@
         .cta-note {
             font-size: 0.9rem;
             color: var(--secondary);
+            line-height: 1.6;
         }
 
         /* Disclaimer */
@@ -441,13 +484,12 @@
         footer {
             padding: 3rem 0;
             border-top: 1px solid var(--border);
+            text-align: center;
         }
 
         .footer-content {
-            display: grid;
-            grid-template-columns: 1fr auto;
-            gap: 2rem;
-            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
         .footer-links {
@@ -463,30 +505,6 @@
 
         .footer-links a:hover {
             color: var(--primary);
-        }
-
-        .social-links {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .social-links a {
-            width: 40px;
-            height: 40px;
-            border: 1px solid var(--border);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--secondary);
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-
-        .social-links a:hover {
-            border-color: var(--primary);
-            color: var(--primary);
-            transform: translateY(-2px);
         }
 
         /* Animations */
@@ -523,10 +541,6 @@
                 gap: 3rem;
             }
 
-            .gallery-grid {
-                grid-template-columns: 1fr;
-            }
-
             .step {
                 grid-template-columns: 60px 1fr;
                 gap: 1.5rem;
@@ -537,15 +551,6 @@
                 font-size: 3rem;
             }
 
-            .footer-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .social-links {
-                justify-content: center;
-            }
-
             .cta-buttons {
                 flex-direction: column;
             }
@@ -553,6 +558,11 @@
             .btn {
                 width: 100%;
                 max-width: 300px;
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                display: none;
             }
         }
 
@@ -563,7 +573,6 @@
         .icon-package { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4'/%3E%3C/svg%3E") no-repeat center; }
         .icon-video { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z'/%3E%3C/svg%3E") no-repeat center; }
         .icon-download { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4'/%3E%3C/svg%3E") no-repeat center; }
-        .icon-github { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/%3E%3C/svg%3E") no-repeat center; }
     </style>
 
     
@@ -594,7 +603,7 @@
                 <a href="#features">Features</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#how-to">How To</a>
-                <a href="https://ensili.co/download/yummy/yummy-5.6.1.zip" class="btn btn-primary">Download</a>
+                <a href="https://getyummy.app/download/yummy-5.6.1.zip" class="btn btn-primary">Download</a>
                 <a class="btn btn-outline" target="_blank" href="https://ensilico.gumroad.com/l/yummy">Buy</a>
             </div>
         </div>
@@ -604,10 +613,10 @@
     <section class="hero">
         <div class="container">
             <h1>The Ultimate Video Downloader<br/>for Your Mac</h1>
-            <p class="tagline">Download videos, music, or both from <u>almost anywhere</u>.<br>Convert and export them to your preferred format.<br><br>Simple. Fast. No-fuss.</p>
+            <p class="tagline">Archive and backup videos from supported platforms.<br>Convert and export them to your preferred format.<br><br>Simple. Fast. No-fuss.</p>
             
             <div class="hero-cta">
-                <a href="https://ensili.co/download/yummy/yummy-5.6.1.zip" class="btn btn-primary">Download for Mac</a>
+                <a href="https://getyummy.app/download/yummy-5.6.1.zip" class="btn btn-primary">Download for Mac</a>
                 <a class="btn btn-outline" target="_blank" href="https://ensilico.gumroad.com/l/yummy">Purchase $14.99</a>
             </div>
 
@@ -634,37 +643,37 @@
                 <div class="feature">
                     <div class="feature-icon ti-face-smile"></div>
                     <h3>Simple & Straightforward</h3>
-                    <p>Yummy is designed to be simple. No confusing menus, no clutter—just a clean interface that works. Add your links, pick your format, and hit download. It just works.</p>
+                    <p>Yummy is designed to be simple. No confusing menus, no clutter—just a clean interface that works. Add your links, pick your format, and start archiving. It just works.</p>
                 </div>
                 
                 <div class="feature">
                     <div class="feature-icon ti-mouse"></div>
                     <h3>Drag & Drop Simplicity</h3>
-                    <p>Don’t want to bother with copying and pasting links? No problem. With Yummy, you can simply drag and drop your video links directly into the app: it will handle it all with ease.</p>
+                    <p>Don't want to bother with copying and pasting links? No problem. With Yummy, you can simply drag and drop video links directly into the app: it will handle it all with ease.</p>
                 </div>
                 
                 <div class="feature">
                     <div class="feature-icon ti-plug"></div>
-                    <h3>Wide Website Support</h3>
-                    <p>Whether it's YouTube, Vimeo, Twitch, or Facebook, Yummy supports hundreds of websites. No matter where your favorite videos are hosted, Yummy has you covered.</p>
+                    <h3>Wide Platform Support</h3>
+                    <p>Yummy supports hundreds of video platforms and websites. Archive your educational content, tutorials, and personal video collections from multiple sources. Perfect for content creators and educators.</p>
                 </div>
                 
                 <div class="feature">
                     <div class="feature-icon ti-package"></div>
                     <h3>Built-In Conversion</h3>
-                    <p>Say goodbye to juggling multiple tools. Yummy comes with built-in conversion features, allowing you to export videos and music in your preferred format (MP4, MP3, MKV, and more) without any hassle.</p>
+                    <p>Say goodbye to juggling multiple tools. Yummy comes with built-in conversion features, allowing you to export videos in your preferred format (MP4, MKV, and more) for personal archiving and backup purposes.</p>
                 </div>
                 
                 <div class="feature">
                     <div class="feature-icon ti-video-clapper"></div>
-                    <h3>High-Quality Downloads</h3>
-                    <p>Choose from multiple quality options, including 4K, 1080p, and 720p, to ensure your downloads look and sound their best. Yummy makes it easy to get the highest quality without overwhelming you.</p>
+                    <h3>Quality Preservation</h3>
+                    <p>Choose from multiple quality options, including 4K, 1080p, and 720p, to ensure your archived content maintains its original quality. Ideal for preserving educational materials and creative commons content.</p>
                 </div>
                 
                 <div class="feature">
                     <div class="feature-icon ti-download"></div>
-                    <h3>Batch Downloading</h3>
-                    <p>Download multiple videos at once with Yummy's batch downloading feature. Save time by queuing up your favorite videos and letting Yummy handle the rest. Simple, efficient, and no-fuss.</p>
+                    <h3>Batch Processing</h3>
+                    <p>Process multiple videos at once with Yummy's batch processing feature. Save time by queuing up your archival tasks and letting Yummy handle the rest. Simple, efficient, and no-fuss.</p>
                 </div>
                 
             </div>
@@ -679,57 +688,76 @@
                 <h2 class="section-title">App screenshots</h2>
             </div>
 
-            <div class="gallery-grid">
-                
-                <div class="gallery-item">
-                    <picture>
-                        <source srcset="images/screenshot1.webp" type="image/webp">
-                        <img loading="lazy" src="images/screenshot1.png" alt="Yummy screenshot 1">
-                    </picture>
+            <div class="swiper screenshotSwiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="gallery-item">
+                            <picture>
+                                <source srcset="images/screenshot1.webp" type="image/webp">
+                                <img loading="lazy" src="images/screenshot1.png" alt="Yummy screenshot 1">
+                            </picture>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="gallery-item">
+                            <picture>
+                                <source srcset="images/screenshot2.webp" type="image/webp">
+                                <img loading="lazy" src="images/screenshot2.png" alt="Yummy screenshot 2">
+                            </picture>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="gallery-item">
+                            <picture>
+                                <source srcset="images/screenshot3.webp" type="image/webp">
+                                <img loading="lazy" src="images/screenshot3.png" alt="Yummy screenshot 3">
+                            </picture>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="gallery-item">
+                            <picture>
+                                <source srcset="images/screenshot4.webp" type="image/webp">
+                                <img loading="lazy" src="images/screenshot4.png" alt="Yummy screenshot 4">
+                            </picture>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="gallery-item">
+                            <picture>
+                                <source srcset="images/screenshot5.webp" type="image/webp">
+                                <img loading="lazy" src="images/screenshot5.png" alt="Yummy screenshot 5">
+                            </picture>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="gallery-item">
+                            <picture>
+                                <source srcset="images/screenshot6.webp" type="image/webp">
+                                <img loading="lazy" src="images/screenshot6.png" alt="Yummy screenshot 6">
+                            </picture>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="gallery-item">
+                            <picture>
+                                <source srcset="images/screenshot7.webp" type="image/webp">
+                                <img loading="lazy" src="images/screenshot7.png" alt="Yummy screenshot 7">
+                            </picture>
+                        </div>
+                    </div>
+                    
                 </div>
-                
-                <div class="gallery-item">
-                    <picture>
-                        <source srcset="images/screenshot2.webp" type="image/webp">
-                        <img loading="lazy" src="images/screenshot2.png" alt="Yummy screenshot 2">
-                    </picture>
-                </div>
-                
-                <div class="gallery-item">
-                    <picture>
-                        <source srcset="images/screenshot3.webp" type="image/webp">
-                        <img loading="lazy" src="images/screenshot3.png" alt="Yummy screenshot 3">
-                    </picture>
-                </div>
-                
-                <div class="gallery-item">
-                    <picture>
-                        <source srcset="images/screenshot4.webp" type="image/webp">
-                        <img loading="lazy" src="images/screenshot4.png" alt="Yummy screenshot 4">
-                    </picture>
-                </div>
-                
-                <div class="gallery-item">
-                    <picture>
-                        <source srcset="images/screenshot5.webp" type="image/webp">
-                        <img loading="lazy" src="images/screenshot5.png" alt="Yummy screenshot 5">
-                    </picture>
-                </div>
-                
-                <div class="gallery-item">
-                    <picture>
-                        <source srcset="images/screenshot6.webp" type="image/webp">
-                        <img loading="lazy" src="images/screenshot6.png" alt="Yummy screenshot 6">
-                    </picture>
-                </div>
-                
-                <div class="gallery-item">
-                    <picture>
-                        <source srcset="images/screenshot7.webp" type="image/webp">
-                        <img loading="lazy" src="images/screenshot7.png" alt="Yummy screenshot 7">
-                    </picture>
-                </div>
-                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -747,8 +775,8 @@
                 <div class="step">
                     <div class="step-number">1</div>
                     <div class="step-content">
-                        <h3>Find Your Video</h3>
-                        <p>Browse your favorite websites and find the video or music you want to download. Yummy supports a wide range of platforms, so you're never limited.</p>
+                        <h3>Find Your Content</h3>
+                        <p>Browse supported video platforms and locate the content you want to archive. Yummy works great for backing up educational videos, tutorials, creative commons content, and your own published materials.</p>
                     </div>
                 </div>
                 
@@ -756,15 +784,15 @@
                     <div class="step-number">2</div>
                     <div class="step-content">
                         <h3>Add to Yummy</h3>
-                        <p>Copy the video link or drag and drop it directly into Yummy. The app will handle the rest, fetching all the necessary details for you. No extra steps, no complications.</p>
+                        <p>Copy the video link or drag and drop it directly into Yummy. The app will handle the rest, fetching all the necessary details for your personal archive. No extra steps, no complications.</p>
                     </div>
                 </div>
                 
                 <div class="step">
                     <div class="step-number">3</div>
                     <div class="step-content">
-                        <h3>Download & Enjoy</h3>
-                        <p>Choose your preferred format and quality, then hit download. Yummy will save your video or music to your Mac, ready for you to enjoy. It’s that simple.</p>
+                        <h3>Archive & Preserve</h3>
+                        <p>Choose your preferred format and quality, then start the archival process. Yummy will save the content to your Mac for personal backup, offline viewing, or educational purposes. It's that simple.</p>
                     </div>
                 </div>
                 
@@ -780,11 +808,11 @@
                 <p>Download Yummy today and experience the simplest way to the ultimate video downloader for mac.</p>
                 
                 <div class="cta-buttons">
-                    <a href="https://ensili.co/download/yummy/yummy-5.6.1.zip" class="btn btn-primary">Download for Mac <small>v5.6.1</small></a>
+                    <a href="https://getyummy.app/download/yummy-5.6.1.zip" class="btn btn-primary">Download for Mac <small>v5.6.1</small></a>
                     <a class="btn btn-outline" target="_blank" href="https://ensilico.gumroad.com/l/yummy">Purchase for $14.99</a>
                 </div>
 
-                <p class="cta-note">Works on macOS 11.0+ | Compatible with M1/M2/M3/M4 and the latest macOS Tahoe</p>
+                <p class="cta-note">Works on macOS 11.0+<br>Compatible with M1/M2/M3/M4 and the latest macOS Tahoe</p>
             </div>
         </div>
     </section>
@@ -795,7 +823,7 @@
         <div class="container">
             <div class="disclaimer-content">
                 <h3>Disclaimer</h3>
-                <p>The use of Yummy is the sole responsibility of the user. The developers and distributors of Yummy are not liable for any illegal use or violation of the terms of service of any website or 3rd party service. This includes, but is not limited to, copyright infringement. enSili.co does not condone or encourage the use of Yummy for downloading content without proper authorization or rights. Users are advised to comply with all applicable laws and terms of service. For any concerns or issues, please contact us directly at info@ensili.co.</p>
+                <p>Yummy is a tool designed for legitimate content archiving purposes, including: downloading your own uploaded content, archiving creative commons materials, preserving educational resources for offline study, backing up publicly accessible content for personal use, and downloading content where you have explicit permission from the copyright holder. Users are solely responsible for ensuring they have the legal right to download any content and must comply with all applicable copyright laws, terms of service, and content licensing requirements. getyummy.app does not condone or support the use of Yummy for copyright infringement or unauthorized downloading of protected content. Users must respect intellectual property rights and obtain proper authorization before downloading copyrighted materials. For any concerns or questions, please contact us at info@getyummy.app.</p>
             </div>
         </div>
     </section>
@@ -807,24 +835,47 @@
             <div class="footer-content">
                 <div class="footer-links">
                     <p>© 2026 Yummy. All rights reserved.</p>
-                    <p><a href="https://ensili.co/app/yummy/tos.html">Terms & Conditions</a> · <a href="/privacy.html">Privacy Policy</a></p>
+                    <p><a href="https://getyummy.app/tos.html">Terms & Conditions</a> · <a href="/privacy.html">Privacy Policy</a></p>
                     
-                    <p style="margin-top: 0.5rem; font-size: 0.8rem;">This software uses code of <a href="http://ffmpeg.org">FFmpeg</a> licensed under the <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPLv2.1</a> and its source can be downloaded <a href="https://ensili.co/app/yummy/ffmpeg.zip">here</a>.</p>
+                    <p style="margin-top: 0.5rem;">This software uses code of <a href="http://ffmpeg.org">FFmpeg</a> licensed under the <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPLv2.1</a> and its source can be downloaded <a href="https://getyummy.app/ffmpeg.zip">here</a>.</p>
                     
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/YummyVideos/yummy" target="_blank" aria-label="GitHub">
-                        <div class="icon-github" style="width: 20px; height: 20px;"></div>
-                    </a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <!-- jQuery -->
     <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
     <script>
+        // Initialize Swiper
+        const swiper = new Swiper('.screenshotSwiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 1.5,
+                },
+            },
+        });
+
         function doBuy(){
             
         }

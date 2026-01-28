@@ -39,7 +39,7 @@
     }
   ],
   "short_name": "Yummy",
-  "description": "Effortlessly download videos and music from YouTube, Vimeo, Twitch, Facebook, and hundreds of other websites. Convert and export them to your preferred format with just a few clicks. Simple, fast, and no-fuss.",
+  "description": "Effortlessly download videos and music from popular video platforms and hundreds of supported websites. Convert and export them to your preferred format with just a few clicks. Perfect for archiving educational content, personal projects, and creative commons materials. Simple, fast, and no-fuss.",
   "start_url": "/",
   "display": "standalone"
 }

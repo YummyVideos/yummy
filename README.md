@@ -3,6 +3,6 @@
 </p>
 <h1 align=center>Yummy for Mac</h1>
 <p align=center>
-  Download videos, music, or both from <u>almost anywhere</u>.<br>Convert and export them to your preferred format.<br><br>Simple. Fast. No-fuss.
+  Archive and backup videos from supported platforms.<br>Convert and export them to your preferred format.<br><br>Simple. Fast. No-fuss.
 </p>
 
