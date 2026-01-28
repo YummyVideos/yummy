@@ -190,6 +190,17 @@
             color: var(--white);  /* White text only on hover when background is black */
         }
 
+        .btn-navbar {
+            border: 1.5px solid var(--secondary);
+            color: var(primary);
+            background: transparent;
+        }
+
+        .btn-navbar:hover {
+            border-color: var(--primary);
+            color: var(--accent);
+        }
+
         /* Hero Section */
         .hero {
             padding: 12rem 0 6rem;
@@ -598,8 +609,8 @@
                 <a href="#features">Features</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#how-to">How To</a>
-                <a href="https://getyummy.app/download/yummy-5.6.1.zip" class="btn btn-primary">Download</a>
-                <a class="btn btn-outline" target="_blank" href="https://ensilico.gumroad.com/l/yummy">Buy</a>
+                <a href="https://getyummy.app/download/yummy-5.6.1.zip" class="btn btn-navbar">Download</a>
+                <a class="btn btn-navbar" target="_blank" href="https://ensilico.gumroad.com/l/yummy">Buy</a>
             </div>
         </div>
     </nav>
