@@ -1,5 +1,5 @@
 <p align=center>
-  <img height="150px" src="https://github.com/enSili-co/yummy/raw/main/images/logo.png"/>
+  <img height="150px" src="https://github.com/YummyVideos/yummy/raw/main/images/logo.png"/>
 </p>
 <h1 align=center>Yummy for Mac</h1>
 <p align=center>
