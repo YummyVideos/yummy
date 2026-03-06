@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+    <title>Version 5.7.2</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>Patreon: minor fix</li>
+                <li>YouTube: improved performance</li>
+    ]]>
+    </description>
+    <pubDate>Fri, 06 Mar 2026 10:47:45 +0100</pubDate>
+    <sparkle:version>5702</sparkle:version>
+    <sparkle:shortVersionString>5.7.2</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.7.2/Yummy.zip' length='51732842' type='application/octet-stream' sparkle:edSignature='Jl71QHxDJwyZn/my25uB/SKQV241Xw+zTOy/lD2/dd7Bp7G2NHRV1cvRY6JWiMdpLepOqQpcysUUcCOfg0tsDQ=='/>
+</item>
+        <item>
     <title>Version 5.7.1</title>
     <link>https://getyummy.app/feed.xml</link>
     <description>
@@ -16,7 +31,7 @@
     <sparkle:version>5701</sparkle:version>
     <sparkle:shortVersionString>5.7.1</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.7.1/Yummy.zip' length='51732823' type='application/octet-stream' sparkle:edSignature='4YGKSZF8scsyxgZtgHkdS8FJJaey0E7NVqNQVoPhh4Q/UDwSylzsNRquocVU+X64Alqz+DJ8pdeeqJriWuICCA=='/>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.1.zip' length='51732823' type='application/octet-stream' sparkle:edSignature='4YGKSZF8scsyxgZtgHkdS8FJJaey0E7NVqNQVoPhh4Q/UDwSylzsNRquocVU+X64Alqz+DJ8pdeeqJriWuICCA=='/>
 </item>
         <item>
             <title>Version 5.6.1</title>
