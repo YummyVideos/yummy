@@ -5,6 +5,23 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+    <title>Version 5.7.6</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>Improved support for QuickTime</li>
+                <li>Better organization of different quality modes</li>
+                <li>Improve update procedure</li>
+                <li>Performance enhancementts</li>
+    ]]>
+    </description>
+    <pubDate>Sat, 07 Mar 2026 11:55:45 +0100</pubDate>
+    <sparkle:version>5706</sparkle:version>
+    <sparkle:shortVersionString>5.7.6</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.7.6/Yummy.zip' length='51737573' type='application/octet-stream' sparkle:edSignature='4Eqo7Fqa28Q2qZl8nddo4DshDoogMdxUHvjMjO5QHXEksh40nvZHeJOJYJU5Dwg/Qy6L+kUrKnNsGhhRiFTuDg=='/>
+</item>
+        <item>
     <title>Version 5.7.2</title>
     <link>https://getyummy.app/feed.xml</link>
     <description>
@@ -17,7 +34,7 @@
     <sparkle:version>5702</sparkle:version>
     <sparkle:shortVersionString>5.7.2</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.7.2/Yummy.zip' length='51732842' type='application/octet-stream' sparkle:edSignature='Jl71QHxDJwyZn/my25uB/SKQV241Xw+zTOy/lD2/dd7Bp7G2NHRV1cvRY6JWiMdpLepOqQpcysUUcCOfg0tsDQ=='/>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.2.zip' length='51732842' type='application/octet-stream' sparkle:edSignature='Jl71QHxDJwyZn/my25uB/SKQV241Xw+zTOy/lD2/dd7Bp7G2NHRV1cvRY6JWiMdpLepOqQpcysUUcCOfg0tsDQ=='/>
 </item>
         <item>
     <title>Version 5.7.1</title>
