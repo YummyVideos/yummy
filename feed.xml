@@ -5,60 +5,78 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-    <title>Version 5.7.6</title>
-    <link>https://getyummy.app/feed.xml</link>
-    <description>
-        <![CDATA[
-        <li>Improved support for QuickTime</li>
+            <title>Version 5.8.0</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>YouTube: Improved support</li>
+                <li>Try making sure the downloaded video quality is the correct one</li>
+                <li>Fixed: Video quality selection not persisting after app restart</li>
+                <li>Add option to save to any preselected folder, other than Downloads</li>
+                <li>Minor performance enhancements</li>
+            ]]>
+            </description>
+            <pubDate>Thu, 12 Mar 2026 12:42:04 +0100</pubDate>
+            <sparkle:version>5800</sparkle:version>
+            <sparkle:shortVersionString>5.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.0/Yummy.zip' length='141930992' type='application/octet-stream' sparkle:edSignature='ZDpr9yZhofC9EtRaJkgIeb6f7B0g/vuhDJJj3QhJDfoEL6181tsYSQE9gezcVyeASQdjeKHnwl9f6OfWBTNuAQ=='/>
+        </item>
+        <item>
+            <title>Version 5.7.6</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>Improved support for QuickTime</li>
                 <li>Better organization of different quality modes</li>
                 <li>Improve update procedure</li>
                 <li>Performance enhancementts</li>
-    ]]>
-    </description>
-    <pubDate>Sat, 07 Mar 2026 11:55:45 +0100</pubDate>
-    <sparkle:version>5706</sparkle:version>
-    <sparkle:shortVersionString>5.7.6</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.7.6/Yummy.zip' length='51737573' type='application/octet-stream' sparkle:edSignature='4Eqo7Fqa28Q2qZl8nddo4DshDoogMdxUHvjMjO5QHXEksh40nvZHeJOJYJU5Dwg/Qy6L+kUrKnNsGhhRiFTuDg=='/>
-</item>
+            ]]>
+            </description>
+            <pubDate>Sat, 07 Mar 2026 11:55:45 +0100</pubDate>
+            <sparkle:version>5706</sparkle:version>
+            <sparkle:shortVersionString>5.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.6.zip' length='51737573' type='application/octet-stream' sparkle:edSignature='4Eqo7Fqa28Q2qZl8nddo4DshDoogMdxUHvjMjO5QHXEksh40nvZHeJOJYJU5Dwg/Qy6L+kUrKnNsGhhRiFTuDg=='/>
+        </item>
         <item>
-    <title>Version 5.7.2</title>
-    <link>https://getyummy.app/feed.xml</link>
-    <description>
-        <![CDATA[
-        <li>Patreon: minor fix</li>
+            <title>Version 5.7.2</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>Patreon: minor fix</li>
                 <li>YouTube: improved performance</li>
-    ]]>
-    </description>
-    <pubDate>Fri, 06 Mar 2026 10:47:45 +0100</pubDate>
-    <sparkle:version>5702</sparkle:version>
-    <sparkle:shortVersionString>5.7.2</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.2.zip' length='51732842' type='application/octet-stream' sparkle:edSignature='Jl71QHxDJwyZn/my25uB/SKQV241Xw+zTOy/lD2/dd7Bp7G2NHRV1cvRY6JWiMdpLepOqQpcysUUcCOfg0tsDQ=='/>
-</item>
+            ]]>
+            </description>
+            <pubDate>Fri, 06 Mar 2026 10:47:45 +0100</pubDate>
+            <sparkle:version>5702</sparkle:version>
+            <sparkle:shortVersionString>5.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.2.zip' length='51732842' type='application/octet-stream' sparkle:edSignature='Jl71QHxDJwyZn/my25uB/SKQV241Xw+zTOy/lD2/dd7Bp7G2NHRV1cvRY6JWiMdpLepOqQpcysUUcCOfg0tsDQ=='/>
+        </item>
         <item>
-    <title>Version 5.7.1</title>
-    <link>https://getyummy.app/feed.xml</link>
-    <description>
-        <![CDATA[
-        <li>Minor fixes &amp; enhancements</li>
-    ]]>
-    </description>
-    <pubDate>Sat, 28 Feb 2026 14:53:38 +0100</pubDate>
-    <sparkle:version>5701</sparkle:version>
-    <sparkle:shortVersionString>5.7.1</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.1.zip' length='51732823' type='application/octet-stream' sparkle:edSignature='4YGKSZF8scsyxgZtgHkdS8FJJaey0E7NVqNQVoPhh4Q/UDwSylzsNRquocVU+X64Alqz+DJ8pdeeqJriWuICCA=='/>
-</item>
+            <title>Version 5.7.1</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>Minor fixes &amp; enhancements</li>
+            ]]>
+            </description>
+            <pubDate>Sat, 28 Feb 2026 14:53:38 +0100</pubDate>
+            <sparkle:version>5701</sparkle:version>
+            <sparkle:shortVersionString>5.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.1.zip' length='51732823' type='application/octet-stream' sparkle:edSignature='4YGKSZF8scsyxgZtgHkdS8FJJaey0E7NVqNQVoPhh4Q/UDwSylzsNRquocVU+X64Alqz+DJ8pdeeqJriWuICCA=='/>
+        </item>
         <item>
             <title>Version 5.6.1</title>
             <link>https://ensili.co/app/yummy</link>
             <description>
                 <![CDATA[
                 <li>Better ARM support</li>
-<li>Fixed issues with M1/2/3/4/5 without Rosetta installed</li>
-<li>General performance improvements</li>
-<li>Better website support</li>
+                <li>Fixed issues with M1/2/3/4/5 without Rosetta installed</li>
+                <li>General performance improvements</li>
+                <li>Better website support</li>
             ]]>
             </description>
             <pubDate>Fri, 23 Jan 2026 18:01:31 +0100</pubDate>
