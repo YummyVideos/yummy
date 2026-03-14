@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+    <title>Version 5.8.2</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>Tiktok: Fixed issue with info extraction</li>
+                <li>Youtube: Various enhancements</li>
+    ]]>
+    </description>
+    <pubDate>Sat, 14 Mar 2026 15:16:01 +0100</pubDate>
+    <sparkle:version>5802</sparkle:version>
+    <sparkle:shortVersionString>5.8.2</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.2/Yummy.zip' length='141932676' type='application/octet-stream' sparkle:edSignature='c0Qc1778CRVYCLb5rU2SdOwRTdTMFVCV/dTmpv58yZb0TU+49yLNs56F0DnwQfnVeVQLr33Tc1xZ+iQRVwOZAA=='/>
+</item>
+        <item>
     <title>Version 5.8.1</title>
     <link>https://getyummy.app/feed.xml</link>
     <description>
@@ -16,7 +31,7 @@
     <sparkle:version>5801</sparkle:version>
     <sparkle:shortVersionString>5.8.1</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.1/Yummy.zip' length='141932690' type='application/octet-stream' sparkle:edSignature='jQ1FF2WdSONI/27s5UPm/9MRaQJw0/Gtn819iTLgSj+xjtGh/fdSKhkdcvjmu5ysgrxLGnhQHFo71K7VNWMRBg=='/>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.1.zip' length='141932690' type='application/octet-stream' sparkle:edSignature='jQ1FF2WdSONI/27s5UPm/9MRaQJw0/Gtn819iTLgSj+xjtGh/fdSKhkdcvjmu5ysgrxLGnhQHFo71K7VNWMRBg=='/>
 </item>
         <item>
             <title>Version 5.8.0</title>
