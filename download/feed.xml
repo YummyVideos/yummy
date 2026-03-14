@@ -1,0 +1,281 @@
+<rss xmlns:sparkle='http://www.andymatuschak.org/xml-namespaces/sparkle' xmlns:dc='http://purl.org/dc/elements/1.1/' version='2.0'>
+    <channel>
+        <title>Yummy - Changelog</title>
+        <link>https://cdn.ensili.co/download/yummy/feed.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+    <title>Version 5.8.2</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>Tiktok: Fixed issue with info extraction</li>
+                <li>Youtube: Various enhancements</li>
+    ]]>
+    </description>
+    <pubDate>Sat, 14 Mar 2026 15:16:01 +0100</pubDate>
+    <sparkle:version>5802</sparkle:version>
+    <sparkle:shortVersionString>5.8.2</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.2.zip' length='141932676' type='application/octet-stream' sparkle:edSignature='c0Qc1778CRVYCLb5rU2SdOwRTdTMFVCV/dTmpv58yZb0TU+49yLNs56F0DnwQfnVeVQLr33Tc1xZ+iQRVwOZAA=='/>
+</item>
+        <item>
+    <title>Version 5.8.1</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>Fixed minor regression: progress not properly showing</li>
+    ]]>
+    </description>
+    <pubDate>Thu, 12 Mar 2026 13:08:43 +0100</pubDate>
+    <sparkle:version>5801</sparkle:version>
+    <sparkle:shortVersionString>5.8.1</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.1.zip' length='141932690' type='application/octet-stream' sparkle:edSignature='jQ1FF2WdSONI/27s5UPm/9MRaQJw0/Gtn819iTLgSj+xjtGh/fdSKhkdcvjmu5ysgrxLGnhQHFo71K7VNWMRBg=='/>
+</item>
+        <item>
+            <title>Version 5.8.0</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>YouTube: Improved support</li>
+                <li>Try making sure the downloaded video quality is the correct one</li>
+                <li>Fixed: Video quality selection not persisting after app restart</li>
+                <li>Add option to save to any preselected folder, other than Downloads</li>
+                <li>Minor performance enhancements</li>
+            ]]>
+            </description>
+            <pubDate>Thu, 12 Mar 2026 12:42:04 +0100</pubDate>
+            <sparkle:version>5800</sparkle:version>
+            <sparkle:shortVersionString>5.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.0.zip' length='141930992' type='application/octet-stream' sparkle:edSignature='ZDpr9yZhofC9EtRaJkgIeb6f7B0g/vuhDJJj3QhJDfoEL6181tsYSQE9gezcVyeASQdjeKHnwl9f6OfWBTNuAQ=='/>
+        </item>
+        <item>
+            <title>Version 5.7.6</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>Improved support for QuickTime</li>
+                <li>Better organization of different quality modes</li>
+                <li>Improve update procedure</li>
+                <li>Performance enhancementts</li>
+            ]]>
+            </description>
+            <pubDate>Sat, 07 Mar 2026 11:55:45 +0100</pubDate>
+            <sparkle:version>5706</sparkle:version>
+            <sparkle:shortVersionString>5.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.6.zip' length='51737573' type='application/octet-stream' sparkle:edSignature='4Eqo7Fqa28Q2qZl8nddo4DshDoogMdxUHvjMjO5QHXEksh40nvZHeJOJYJU5Dwg/Qy6L+kUrKnNsGhhRiFTuDg=='/>
+        </item>
+        <item>
+            <title>Version 5.7.2</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>Patreon: minor fix</li>
+                <li>YouTube: improved performance</li>
+            ]]>
+            </description>
+            <pubDate>Fri, 06 Mar 2026 10:47:45 +0100</pubDate>
+            <sparkle:version>5702</sparkle:version>
+            <sparkle:shortVersionString>5.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.2.zip' length='51732842' type='application/octet-stream' sparkle:edSignature='Jl71QHxDJwyZn/my25uB/SKQV241Xw+zTOy/lD2/dd7Bp7G2NHRV1cvRY6JWiMdpLepOqQpcysUUcCOfg0tsDQ=='/>
+        </item>
+        <item>
+            <title>Version 5.7.1</title>
+            <link>https://getyummy.app/feed.xml</link>
+            <description>
+                <![CDATA[
+                <li>Minor fixes &amp; enhancements</li>
+            ]]>
+            </description>
+            <pubDate>Sat, 28 Feb 2026 14:53:38 +0100</pubDate>
+            <sparkle:version>5701</sparkle:version>
+            <sparkle:shortVersionString>5.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.7.1.zip' length='51732823' type='application/octet-stream' sparkle:edSignature='4YGKSZF8scsyxgZtgHkdS8FJJaey0E7NVqNQVoPhh4Q/UDwSylzsNRquocVU+X64Alqz+DJ8pdeeqJriWuICCA=='/>
+        </item>
+        <item>
+            <title>Version 5.6.1</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description>
+                <![CDATA[
+                <li>Better ARM support</li>
+                <li>Fixed issues with M1/2/3/4/5 without Rosetta installed</li>
+                <li>General performance improvements</li>
+                <li>Better website support</li>
+            ]]>
+            </description>
+            <pubDate>Fri, 23 Jan 2026 18:01:31 +0100</pubDate>
+            <sparkle:version>5601</sparkle:version>
+            <sparkle:shortVersionString>5.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.6.1.zip' length='124878162' type='application/octet-stream' sparkle:edSignature='Xka3fwFdDdHq8GeA2tHAeA7MB2u6XkxIClDBR+KDTY2VqpvtdeZ1toJ/O4DY+SgK/1I/agOO8YYdcZKeLMIPCQ=='/>
+        </item>
+        <item>
+            <title>Version 5.4.6</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description>
+                <![CDATA[
+                <li>Performance improvements and bug fixes</li>
+            ]]>
+            </description>
+            <pubDate>Thu, 22 Jan 2026 18:26:44 +0100</pubDate>
+            <sparkle:version>5406</sparkle:version>
+            <sparkle:shortVersionString>5.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.4.6.zip' length='41922502' type='application/octet-stream' sparkle:edSignature='YVUYiDO5eFmhxdTSdNbdedp+kS3uXYNG4nAT6qq949SZSs4o2yQqVFj9FwAJb1Gx8I+CK5iGfOgg+xulnOt7Aw=='/>
+        </item>
+        <item>
+            <title>Version 5.4.5</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description>
+                <![CDATA[
+                <li>Performance improvements and bug fixes</li>
+            ]]>
+            </description>
+            <pubDate>Tue, 23 Dec 2025 17:04:19 +0100</pubDate>
+            <sparkle:version>5405</sparkle:version>
+            <sparkle:shortVersionString>5.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.4.5.zip' length='41877637' type='application/octet-stream' sparkle:edSignature='I52IJJrBvnzz220pTEeLw6WDjiQGrFP5aIuakO2eHRicWt+xmsvQdiJKPKVXtYRLVnOqofFMKbxav+Bu0iMoBw=='/>
+        </item>
+        <item>
+            <title>Version 5.4.4</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description>
+                <![CDATA[
+                <li>Performance improvements and bug fixes</li>
+            ]]>
+            </description>
+            <pubDate>Wed, 26 Nov 2025 16:34:00 +0100</pubDate>
+            <sparkle:version>5404</sparkle:version>
+            <sparkle:shortVersionString>5.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.4.4.zip' length='41877584' type='application/octet-stream' sparkle:edSignature='6jwC5PopSajzpKO7DdZevXCU8/Kvk6FBqsI1aLavXCQifGr8i5hQKitbKSVW3akkU+sdmS1SPFeajGXgXbLkCQ=='/>
+        </item>
+        <item>
+            <title>Version 5.4.3</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description>
+                <![CDATA[
+                <li>Performance improvements and bug fixes</li>
+            ]]>
+            </description>
+            <pubDate>Wed, 19 Nov 2025 08:40:17 +0100</pubDate>
+            <sparkle:version>5403</sparkle:version>
+            <sparkle:shortVersionString>5.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.4.3.zip' length='41869462' type='application/octet-stream' sparkle:edSignature='eg+c/vJBHxGI8WqHNDMgPv5r4Gmab8sPfsEBIfOY05Guh+lgfZHFd6Xsk2xYJ5KMhkI5YIRDVITLWB4kcaORAg=='/>
+        </item>
+        <item>
+            <title>Version 5.4.2</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description>
+                <![CDATA[
+                <li>Better video support</li>
+<li>Minor enhancements</li>
+            ]]>
+            </description>
+            <pubDate>Sat, 08 Nov 2025 09:06:05 +0100</pubDate>
+            <sparkle:version>5402</sparkle:version>
+            <sparkle:shortVersionString>5.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.4.2.zip' length='41853309' type='application/octet-stream' sparkle:edSignature='L0OMuyBZuXW+/B1NuxQCpRCrFG5o16JXhfb7cGRwqU1gjZKq+fDae5M1JgLq6ALIDb1TWyf6aWs0/v0ZkEE+AA=='/>
+        </item>
+        <item>
+            <title>Version 5.4.1</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description> <![CDATA[
+                <li>Minor enhancements</li>
+            ]]> </description>
+            <pubDate>Tue, 28 Oct 2025 12:28:30 +0100</pubDate>
+            <sparkle:version>5401</sparkle:version>
+            <sparkle:shortVersionString>5.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.4.1.zip' length='41804987' type='application/octet-stream' sparkle:edSignature='pVCMPUGzZ2mN3Xu7rOQNOu5/gMJiQN2w0AShZ76PrLK2VlhpbKZCNLTeAVjxkOfDlHLKGVIHScwkvB458hFDDA=='/>
+        </item>
+        <item>
+            <title>Version 5.4</title>
+            <link>https://ensili.co/app/yummy</link>
+            <description>
+                <![CDATA[
+                <li>Better website support</li>
+<li>Fixed update mechanism</li>
+<li>Minor enhancements</li>
+            ]]>
+            </description>
+            <pubDate>Sat, 25 Oct 2025 11:47:06 +0200</pubDate>
+            <sparkle:version>5400</sparkle:version>
+            <sparkle:shortVersionString>5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.4.zip' length='41802874' type='application/octet-stream' sparkle:edSignature='9f7ucSLzMbQiwTj3RS4UfdkC4ogEGFT4IE/Vi4BGi2Fmvm6XhmwisPlX1R8DY9008Bm9Tdh89OYiD+5Fi9XfCg=='/>
+        </item>
+        <item>
+            <title>Version 5.3.8</title>
+            <description>
+                <![CDATA[ <ul> 
+                <li>Fixed issue with YouTube video downloads</li>
+            </ul> ]]>
+            </description>
+            <pubDate>Fri, 17 Oct 2025 13:50:11 +0000</pubDate>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.3.8.zip' sparkle:version='5380' sparkle:shortVersionString='5.3.8' length='1623481' type='application/octet-stream'/>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>Version 5.3.6</title>
+            <description>
+                <![CDATA[ <ul> 
+                <li>Improved performance</li>
+                <li>Minor enhancements</li>
+            </ul> ]]>
+            </description>
+            <pubDate>Wed, 18 Jun 2025 13:50:11 +0000</pubDate>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.3.6.zip' sparkle:version='5360' sparkle:shortVersionString='5.3.6' length='1623481' type='application/octet-stream'/>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>Version 5.3.4</title>
+            <description>
+                <![CDATA[ <ul> 
+                <li>Improved performance</li>
+                <li>Minor enhancements</li>
+            </ul> ]]>
+            </description>
+            <pubDate>Sat, 4 Jun 2025 13:50:11 +0000</pubDate>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.3.4.zip' sparkle:version='5340' sparkle:shortVersionString='5.3.4' length='1623481' type='application/octet-stream'/>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>Version 5.3</title>
+            <description>
+                <![CDATA[ <ul> 
+                <li>Fixed YouTube download issues</li>
+                <li>Better website/source support</li>
+                <li>Improved performance</li>
+                <li>Minor enhancements</li>
+            </ul> ]]>
+            </description>
+            <pubDate>Sat, 29 Mar 2025 13:50:11 +0000</pubDate>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.3.zip' sparkle:version='5329' sparkle:shortVersionString='5.3' length='1623481' type='application/octet-stream'/>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>Version 5.0</title>
+            <description>
+                <![CDATA[ <ul> 
+                <li>New release</li> 
+                <li>Better website/source support</li>
+                <li>UI redesigned from scratch</li>
+                <li>M1/M2/M3/M4 support</li>
+                <li>Full Sequoia support</li>
+            </ul> ]]>
+            </description>
+            <pubDate>Fri, 24 Jan 2025 13:50:11 +0000</pubDate>
+            <enclosure url='https://ensili.co/download/yummy/yummy-5.0.zip' sparkle:version='5234' sparkle:shortVersionString='5.0' length='1623481' type='application/octet-stream'/>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
+</rss>
