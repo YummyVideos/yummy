@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+    <title>Version 5.8.3</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>YouTube: better extraction logic</li>
+                <li>Minor enhancements</li>
+    ]]>
+    </description>
+    <pubDate>Wed, 18 Mar 2026 12:42:06 +0100</pubDate>
+    <sparkle:version>5803</sparkle:version>
+    <sparkle:shortVersionString>5.8.3</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.3/Yummy.zip' length='141932634' type='application/octet-stream' sparkle:edSignature='2zjQQXP2osPBkSQ2INN6YMUyjwMCxbcw74s98WpygYhIGVFqwOFVDC47N5aALllKrDQLrVMAy//d8oMOorM7BA=='/>
+</item>
+        <item>
     <title>Version 5.8.2</title>
     <link>https://getyummy.app/feed.xml</link>
     <description>
@@ -17,7 +32,7 @@
     <sparkle:version>5802</sparkle:version>
     <sparkle:shortVersionString>5.8.2</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.2/Yummy.zip' length='141932676' type='application/octet-stream' sparkle:edSignature='c0Qc1778CRVYCLb5rU2SdOwRTdTMFVCV/dTmpv58yZb0TU+49yLNs56F0DnwQfnVeVQLr33Tc1xZ+iQRVwOZAA=='/>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.2.zip' length='141932676' type='application/octet-stream' sparkle:edSignature='c0Qc1778CRVYCLb5rU2SdOwRTdTMFVCV/dTmpv58yZb0TU+49yLNs56F0DnwQfnVeVQLr33Tc1xZ+iQRVwOZAA=='/>
 </item>
         <item>
     <title>Version 5.8.1</title>
