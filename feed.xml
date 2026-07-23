@@ -5,6 +5,25 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+    <title>Version 5.8.5</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>Instagram: better extractor</li>
+                <li>LinkedIn: Improved extractor</li>
+                <li>Patreon: added support for new formats</li>
+                <li>SVT: fixed video extraction</li>
+                <li>YouTube: numerous improvements and fixes</li>
+                <li>Misc. security enhancements</li>
+    ]]>
+    </description>
+    <pubDate>Thu, 23 Jul 2026 12:40:30 +0200</pubDate>
+    <sparkle:version>5805</sparkle:version>
+    <sparkle:shortVersionString>5.8.5</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.5/Yummy.zip' length='141932673' type='application/octet-stream' sparkle:edSignature='60duYYD9Yj+XieymC7MFNNMzFkZauqp5IBLeaQW7oyXkbGoH+CXRvdAMNPOq98v5yk/6eKmxz8wrkrJqJO3FDg=='/>
+</item>
+        <item>
     <title>Version 5.8.4</title>
     <link>https://getyummy.app/feed.xml</link>
     <description>
@@ -19,7 +38,7 @@
     <sparkle:version>5804</sparkle:version>
     <sparkle:shortVersionString>5.8.4</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.4/Yummy.zip' length='141932669' type='application/octet-stream' sparkle:edSignature='+VbZkKR5NAGQ0RJSOO/At79GpC/sEhRAah/rLu1g/Mox8NUEBJU7EmejHCmYWgDui6IU/bRnh/cKFH0JMtqVBw=='/>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.4.zip' length='141932669' type='application/octet-stream' sparkle:edSignature='+VbZkKR5NAGQ0RJSOO/At79GpC/sEhRAah/rLu1g/Mox8NUEBJU7EmejHCmYWgDui6IU/bRnh/cKFH0JMtqVBw=='/>
 </item>
         <item>
     <title>Version 5.8.3</title>
