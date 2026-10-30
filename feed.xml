@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+    <title>Version 5.8.8</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>Fixed dependencies</li>
+                <li>Minor enhancements</li>
+    ]]>
+    </description>
+    <pubDate>Fri, 30 Oct 2026 10:23:16 +0100</pubDate>
+    <sparkle:version>5808</sparkle:version>
+    <sparkle:shortVersionString>5.8.8</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.8/Yummy.zip' length='141932648' type='application/octet-stream' sparkle:edSignature='ELMZSQ7Y1IW9OPRpoAZSWV2dvUTdLzRUgEx7et7nD8TjGegpsvOjoShjkFYHGC/9TU0h9miBifJER+FrFdK8Dw=='/>
+</item>
+        <item>
     <title>Version 5.8.7</title>
     <link>https://getyummy.app/feed.xml</link>
     <description>
@@ -18,7 +33,7 @@
     <sparkle:version>5807</sparkle:version>
     <sparkle:shortVersionString>5.8.7</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.7/Yummy.zip' length='141932638' type='application/octet-stream' sparkle:edSignature='+zIUjavENW48GH86Q4siAqi0cXCPqutx6Rr4kkujD5ncTsUyLyGrVvqpN7/mdpoTU712NhSeWVYf+pifblbwCw=='/>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.7.zip' length='141932638' type='application/octet-stream' sparkle:edSignature='+zIUjavENW48GH86Q4siAqi0cXCPqutx6Rr4kkujD5ncTsUyLyGrVvqpN7/mdpoTU712NhSeWVYf+pifblbwCw=='/>
 </item>
         <item>
     <title>Version 5.8.6</title>
