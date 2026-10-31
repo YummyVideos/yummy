@@ -5,6 +5,26 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+    <title>Version 5.9.0</title>
+    <link>https://getyummy.app/feed.xml</link>
+    <description>
+        <![CDATA[
+        <li>A failed video no longer stops the rest of the queue</li>
+                <li>Completion screen shows how many videos were downloaded, failed ones stay in the list for retrying</li>
+                <li>Settings are now organized in tabs</li>
+                <li>New setting: create folders from slashes in video titles (off by default)</li>
+                <li>Safer filenames: fixed very long titles and special characters</li>
+                <li>Videos with the same title no longer overwrite each other</li>
+                <li>Friendlier error messages</li>
+    ]]>
+    </description>
+    <pubDate>Sat, 31 Oct 2026 14:59:49 +0100</pubDate>
+    <sparkle:version>5809</sparkle:version>
+    <sparkle:shortVersionString>5.9.0</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.9.0/Yummy.zip' length='141969517' type='application/octet-stream' sparkle:edSignature='yNZjQ6wFc+SzTG+gyBGpdkLFMKZ4RbC1qXotdBgRjq/tbKSMNIrcpO/usA7IuQgx7GMPnclHdbKEjueD8il4AQ=='/>
+</item>
+        <item>
     <title>Version 5.8.8</title>
     <link>https://getyummy.app/feed.xml</link>
     <description>
@@ -17,7 +37,7 @@
     <sparkle:version>5808</sparkle:version>
     <sparkle:shortVersionString>5.8.8</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
-    <enclosure url='https://github.com/YummyVideos/yummy/releases/download/5.8.8/Yummy.zip' length='141932648' type='application/octet-stream' sparkle:edSignature='ELMZSQ7Y1IW9OPRpoAZSWV2dvUTdLzRUgEx7et7nD8TjGegpsvOjoShjkFYHGC/9TU0h9miBifJER+FrFdK8Dw=='/>
+    <enclosure url='https://cdn.getyummy.app/feed.xml/download/yummy-5.8.8.zip' length='141932648' type='application/octet-stream' sparkle:edSignature='ELMZSQ7Y1IW9OPRpoAZSWV2dvUTdLzRUgEx7et7nD8TjGegpsvOjoShjkFYHGC/9TU0h9miBifJER+FrFdK8Dw=='/>
 </item>
         <item>
     <title>Version 5.8.7</title>
